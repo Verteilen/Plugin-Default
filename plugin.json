@@ -1,0 +1,23 @@
+{
+    "plugins": [
+        {
+            "name": "ply blend program",
+            "description": "Blend process",
+            "version": "0.2.0",
+            "contents": [
+                {
+                    "filename": "ply_blend.exe",
+                    "url": "https://github.com/Verteilen/Plugin-GS4/releases/download/0.2.0-windows/ply_blend.exe",
+                    "platform": "win32",
+                    "arch": "x64"
+                },
+                {
+                    "filename": "ply_blend",
+                    "url": "https://github.com/Verteilen/Plugin-GS4/releases/download/0.2.0-linux/ply_blend",
+                    "platform": "linux",
+                    "arch": "x64"
+                }
+            ]
+        }
+    ]
+}
