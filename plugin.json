@@ -1,19 +1,19 @@
 {
     "plugins": [
         {
-            "name": "ply blend program",
-            "description": "Blend process",
+            "name": "Default",
+            "description": "Default Test Program",
             "version": "0.2.0",
             "contents": [
                 {
-                    "filename": "ply_blend.exe",
-                    "url": "https://github.com/Verteilen/Plugin-GS4/releases/download/0.2.0-windows/ply_blend.exe",
+                    "filename": "Default.exe",
+                    "url": "https://github.com/Verteilen/Plugin-Default/releases/download/v1.0/Default.exe",
                     "platform": "win32",
                     "arch": "x64"
                 },
                 {
-                    "filename": "ply_blend",
-                    "url": "https://github.com/Verteilen/Plugin-GS4/releases/download/0.2.0-linux/ply_blend",
+                    "filename": "Default",
+                    "url": "https://github.com/Verteilen/Plugin-Default/releases/download/v1.0/Default",
                     "platform": "linux",
                     "arch": "x64"
                 }
