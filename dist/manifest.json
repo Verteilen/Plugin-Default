@@ -3,6 +3,7 @@
     "icon": "",
     "owner": "Elly",
     "title": "Default",
+    "description": "The BuildIn Example Plugin",
     "plugins": [
         {
             "name": "Default",
