@@ -1,0 +1,41 @@
+{
+    "uuid": "1f0b9966-ba7d-6715-a085-8f2dc8685cfa",
+    "title": "",
+    "description": "",
+    "tasks": [
+        {
+            "uuid": "1f0b9966-ba7f-6e11-a31f-5304e8adc47d",
+            "title": "Print Index",
+            "description": "",
+            "setupjob": false,
+            "cronjob": true,
+            "cronjobKey": "cluster",
+            "multi": false,
+            "multiKey": "",
+            "properties": [],
+            "jobs": [
+                {
+                    "uuid": "1f0b9966-ba7f-6e10-b45d-212a4adbcc86",
+                    "title": "",
+                    "description": "",
+                    "category": 1,
+                    "type": 8,
+                    "script": "",
+                    "string_args": [
+                        "",
+                        "echo",
+                        "%ck%"
+                    ],
+                    "number_args": [
+                        2
+                    ],
+                    "boolean_args": [],
+                    "id_args": []
+                }
+            ],
+            "jobs_uuid": []
+        }
+    ],
+    "tasks_uuid": [],
+    "database_uuid": ""
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "name": "path",
+        "value": "C:\\Tool",
+        "type": 2,
+        "runtimeOnly": false,
+        "hidden": false
+    },
+    {
+        "name": "cluster",
+        "value": 15,
+        "type": 1,
+        "runtimeOnly": false,
+        "hidden": false
+    },
+    {
+        "name": "core",
+        "value": 4,
+        "type": 1,
+        "runtimeOnly": false,
+        "hidden": false
+    },
+    {
+        "name": "n1",
+        "value": 9999,
+        "type": 1,
+        "runtimeOnly": false,
+        "hidden": false
+    },
+    {
+        "name": "s1",
+        "value": "Hello World",
+        "type": 2,
+        "runtimeOnly": false,
+        "hidden": false
+    },
+    {
+        "name": "b1",
+        "value": false,
+        "type": 0,
+        "runtimeOnly": false,
+        "hidden": false
+    },
+    {
+        "name": "e1",
+        "value": 0,
+        "meta": "n1 + n2",
+        "type": 4,
+        "runtimeOnly": false,
+        "hidden": false
+    }
+]

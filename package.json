@@ -1,0 +1,23 @@
+{
+  "name": "verteilen-plugin-default",
+  "version": "0.2.0",
+  "license": "MIT",
+  "homepage": "https://verteilen.github.io/wiki/",
+  "author": "Elly",
+  "repository": "https://github.com/Verteilen/Verteilen-Core",
+  "description": "For testing use plugin",
+  "main": "build.ts",
+  "bugs": {
+    "url": "https://github.com/Verteilen/Verteilen-Core/issues"
+  },
+  "scripts": {
+    "build": "ts-node build.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "verteilen-core": "^1.3.32"
+  }
+}

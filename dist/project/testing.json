@@ -1,0 +1,429 @@
+{
+    "uuid": "1f0b9966-ba7a-6ff0-97ce-836557da4109",
+    "title": "",
+    "description": "",
+    "tasks": [
+        {
+            "uuid": "1f0b9966-ba7a-6ff3-ac0b-6b5a06236cb5",
+            "title": "Check Path",
+            "description": "",
+            "setupjob": false,
+            "cronjob": false,
+            "cronjobKey": "",
+            "multi": false,
+            "multiKey": "",
+            "properties": [],
+            "jobs": [
+                {
+                    "uuid": "1f0b9966-ba7a-6ff2-930a-a961ab80bcc9",
+                    "title": "",
+                    "description": "",
+                    "category": 0,
+                    "type": 0,
+                    "script": "",
+                    "string_args": [
+                        "%path%"
+                    ],
+                    "number_args": [
+                        2
+                    ],
+                    "boolean_args": [],
+                    "id_args": []
+                }
+            ],
+            "jobs_uuid": []
+        },
+        {
+            "uuid": "1f0b9966-ba7a-6ff5-966e-84a0c53baf6d",
+            "title": "Print Expression",
+            "description": "",
+            "setupjob": false,
+            "cronjob": true,
+            "cronjobKey": "cluster",
+            "multi": false,
+            "multiKey": "",
+            "properties": [],
+            "jobs": [
+                {
+                    "uuid": "1f0b9966-ba7a-6ff4-be22-142a991650a0",
+                    "title": "",
+                    "description": "",
+                    "category": 1,
+                    "type": 8,
+                    "script": "",
+                    "string_args": [
+                        "",
+                        "echo",
+                        "%e1%"
+                    ],
+                    "number_args": [
+                        2
+                    ],
+                    "boolean_args": [],
+                    "id_args": []
+                }
+            ],
+            "jobs_uuid": []
+        },
+        {
+            "uuid": "1f0b9966-ba7d-6702-ad31-86d49968cab6",
+            "title": "OS Action",
+            "description": "",
+            "setupjob": false,
+            "cronjob": false,
+            "cronjobKey": "",
+            "multi": false,
+            "multiKey": "",
+            "properties": [],
+            "jobs": [
+                {
+                    "uuid": "1f0b9966-ba7d-6700-b81a-67f5fa8af7d8",
+                    "title": "",
+                    "description": "",
+                    "category": 1,
+                    "type": 5,
+                    "script": "",
+                    "string_args": [
+                        "%path%/test"
+                    ],
+                    "number_args": [
+                        2
+                    ],
+                    "boolean_args": [],
+                    "id_args": []
+                },
+                {
+                    "uuid": "1f0b9966-ba7d-6701-b6a4-154bc2ee65cf",
+                    "title": "",
+                    "description": "",
+                    "category": 1,
+                    "type": 4,
+                    "script": "",
+                    "string_args": [
+                        "%path%/test/hello.txt",
+                        "Hello World"
+                    ],
+                    "number_args": [
+                        2
+                    ],
+                    "boolean_args": [],
+                    "id_args": []
+                }
+            ],
+            "jobs_uuid": []
+        },
+        {
+            "uuid": "1f0b9966-ba7d-6704-b94f-2fb4d73be6dd",
+            "title": "Print Index",
+            "description": "",
+            "setupjob": false,
+            "cronjob": true,
+            "cronjobKey": "cluster",
+            "multi": false,
+            "multiKey": "",
+            "properties": [],
+            "jobs": [
+                {
+                    "uuid": "1f0b9966-ba7d-6703-b769-0ab7eba2f007",
+                    "title": "",
+                    "description": "",
+                    "category": 1,
+                    "type": 8,
+                    "script": "",
+                    "string_args": [
+                        "",
+                        "echo",
+                        "%ck%"
+                    ],
+                    "number_args": [
+                        2
+                    ],
+                    "boolean_args": [],
+                    "id_args": []
+                }
+            ],
+            "jobs_uuid": []
+        },
+        {
+            "uuid": "1f0b9966-ba7d-6706-8253-7f65588d0f42",
+            "title": "Print number (With property calc)",
+            "description": "",
+            "setupjob": false,
+            "cronjob": true,
+            "cronjobKey": "cluster",
+            "multi": false,
+            "multiKey": "",
+            "properties": [
+                {
+                    "name": "prop",
+                    "expression": "ck * 5"
+                }
+            ],
+            "jobs": [
+                {
+                    "uuid": "1f0b9966-ba7d-6705-9430-a4d24d7500fe",
+                    "title": "",
+                    "description": "",
+                    "category": 1,
+                    "type": 8,
+                    "script": "",
+                    "string_args": [
+                        "",
+                        "echo",
+                        "%prop%"
+                    ],
+                    "number_args": [
+                        2
+                    ],
+                    "boolean_args": [],
+                    "id_args": []
+                }
+            ],
+            "jobs_uuid": []
+        },
+        {
+            "uuid": "1f0b9966-ba7d-6708-8a08-e4c13d6dece8",
+            "title": "Run Js",
+            "description": "",
+            "setupjob": false,
+            "cronjob": false,
+            "cronjobKey": "",
+            "multi": false,
+            "multiKey": "",
+            "properties": [],
+            "jobs": [
+                {
+                    "uuid": "1f0b9966-ba7d-6707-a227-54e6cbfa056d",
+                    "title": "",
+                    "description": "",
+                    "category": 1,
+                    "type": 7,
+                    "script": "\nconsole.log(\"Hello World!\");\n",
+                    "string_args": [],
+                    "number_args": [],
+                    "boolean_args": [],
+                    "id_args": []
+                }
+            ],
+            "jobs_uuid": []
+        },
+        {
+            "uuid": "1f0b9966-ba7d-670a-815c-9f9d80ead96a",
+            "title": "Run Js",
+            "description": "",
+            "setupjob": false,
+            "cronjob": false,
+            "cronjobKey": "",
+            "multi": false,
+            "multiKey": "",
+            "properties": [],
+            "jobs": [
+                {
+                    "uuid": "1f0b9966-ba7d-6709-a0d3-26837001970b",
+                    "title": "",
+                    "description": "",
+                    "category": 1,
+                    "type": 7,
+                    "script": "\ne1 = env.getnumber(\"e1\");\nconsole.log(e1);\n",
+                    "string_args": [],
+                    "number_args": [],
+                    "boolean_args": [],
+                    "id_args": []
+                }
+            ],
+            "jobs_uuid": []
+        },
+        {
+            "uuid": "1f0b9966-ba7d-670c-921e-5758acefe740",
+            "title": "Run Cronjob Js",
+            "description": "",
+            "setupjob": false,
+            "cronjob": true,
+            "cronjobKey": "cluster",
+            "multi": false,
+            "multiKey": "",
+            "properties": [],
+            "jobs": [
+                {
+                    "uuid": "1f0b9966-ba7d-670b-bcc7-a833d6f17a07",
+                    "title": "",
+                    "description": "",
+                    "category": 1,
+                    "type": 7,
+                    "script": "\nid = env.getnumber('ck');\nconsole.log(`Hello World from ${id}`);\n",
+                    "string_args": [],
+                    "number_args": [],
+                    "boolean_args": [],
+                    "id_args": []
+                }
+            ],
+            "jobs_uuid": []
+        },
+        {
+            "uuid": "1f0b9966-ba7d-670e-a057-6e28d97cd3f8",
+            "title": "Save Paramter",
+            "description": "",
+            "setupjob": false,
+            "cronjob": true,
+            "cronjobKey": "cluster",
+            "multi": false,
+            "multiKey": "",
+            "properties": [],
+            "jobs": [
+                {
+                    "uuid": "1f0b9966-ba7d-670d-8454-498d9a8f2c03",
+                    "title": "",
+                    "description": "",
+                    "category": 1,
+                    "type": 7,
+                    "script": "\nid = env.getnumber('ck');\nconsole.log(`Current ck: ${id}`);\nkey = `KEY_${id}`;\nr = id * 5;\nconsole.log(JSON.stringify(env, null, 2));\nenv.setnumber(key, r);\nconsole.log(`Set keyvalue: [${key}, ${r}]`);\n",
+                    "string_args": [],
+                    "number_args": [],
+                    "boolean_args": [],
+                    "id_args": []
+                }
+            ],
+            "jobs_uuid": []
+        },
+        {
+            "uuid": "1f0b9966-ba7d-6710-8364-d2c2dcf3b7da",
+            "title": "Load Paramter MultiCore",
+            "description": "",
+            "setupjob": false,
+            "cronjob": true,
+            "cronjobKey": "cluster",
+            "multi": true,
+            "multiKey": "core",
+            "properties": [],
+            "jobs": [
+                {
+                    "uuid": "1f0b9966-ba7d-670f-8cac-4ef98366aee9",
+                    "title": "",
+                    "description": "",
+                    "category": 1,
+                    "type": 7,
+                    "script": "\nid = env.getnumber('ck');\nkey = `KEY_${id}`;\nvalue = env.getnumber(key);\nconsole.log(`Set keyvalue: [${key}, ${value}]`);\n",
+                    "string_args": [],
+                    "number_args": [],
+                    "boolean_args": [],
+                    "id_args": []
+                }
+            ],
+            "jobs_uuid": []
+        },
+        {
+            "uuid": "1f0b9966-ba7d-6712-9578-5b18fd1952ab",
+            "title": "Call Lib Exe",
+            "description": "",
+            "setupjob": false,
+            "cronjob": false,
+            "cronjobKey": "",
+            "multi": false,
+            "multiKey": "",
+            "properties": [],
+            "jobs": [
+                {
+                    "uuid": "1f0b9966-ba7d-6711-b901-9c671223aea0",
+                    "title": "",
+                    "description": "",
+                    "category": 1,
+                    "type": 9,
+                    "script": "",
+                    "string_args": [
+                        "Default",
+                        ""
+                    ],
+                    "number_args": [],
+                    "boolean_args": [],
+                    "id_args": []
+                }
+            ],
+            "jobs_uuid": []
+        },
+        {
+            "uuid": "1f0b9966-ba7d-6714-8ab0-c8257493fc3b",
+            "title": "Call Lib JS Exe",
+            "description": "",
+            "setupjob": false,
+            "cronjob": false,
+            "cronjobKey": "",
+            "multi": false,
+            "multiKey": "",
+            "properties": [],
+            "jobs": [
+                {
+                    "uuid": "1f0b9966-ba7d-6713-9079-d230a8311075",
+                    "title": "",
+                    "description": "",
+                    "category": 1,
+                    "type": 7,
+                    "script": "\nfor(i = 0; i < 10; i++){\n    await os.plugin_command(\"Default\", \"\");\n}\n",
+                    "string_args": [],
+                    "number_args": [],
+                    "boolean_args": [],
+                    "id_args": []
+                }
+            ],
+            "jobs_uuid": []
+        }
+    ],
+    "tasks_uuid": [],
+    "database_uuid": "",
+    "database": {
+        "title": "Default Database",
+        "uuid": "1f0b9966-ba7a-6ff1-ae27-974e3ad80b37",
+        "canWrite": true,
+        "containers": [
+            {
+                "name": "path",
+                "value": "C:\\Tool",
+                "type": 2,
+                "runtimeOnly": false,
+                "hidden": false
+            },
+            {
+                "name": "cluster",
+                "value": 15,
+                "type": 1,
+                "runtimeOnly": false,
+                "hidden": false
+            },
+            {
+                "name": "core",
+                "value": 4,
+                "type": 1,
+                "runtimeOnly": false,
+                "hidden": false
+            },
+            {
+                "name": "n1",
+                "value": 9999,
+                "type": 1,
+                "runtimeOnly": false,
+                "hidden": false
+            },
+            {
+                "name": "s1",
+                "value": "Hello World",
+                "type": 2,
+                "runtimeOnly": false,
+                "hidden": false
+            },
+            {
+                "name": "b1",
+                "value": false,
+                "type": 0,
+                "runtimeOnly": false,
+                "hidden": false
+            },
+            {
+                "name": "e1",
+                "value": 0,
+                "meta": "n1 + n2",
+                "type": 4,
+                "runtimeOnly": false,
+                "hidden": false
+            }
+        ]
+    }
+}
