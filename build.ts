@@ -1,9 +1,14 @@
 import { PluginBuild } from "verteilen-core";
 import { BuildIn_ProjectTempGroup, BuildIn_DatabaseTempGroup } from './src/projectTemplate'
 
+/**
+ * Build Plugin To Dist
+ */
 PluginBuild(
+// Destinations
 "dist",
 {
+    // Plugins metadata
     plugins: [
         {
             name: "Default",
@@ -29,6 +34,7 @@ PluginBuild(
         }
     ]
 }, {
+    // Template metadata
     projects: BuildIn_ProjectTempGroup,
     databases: BuildIn_DatabaseTempGroup
 })
