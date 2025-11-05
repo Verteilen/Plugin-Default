@@ -1,10 +1,10 @@
 {
-    "uuid": "1f0b9fe8-7800-6070-89e3-05c53644a00a",
+    "uuid": "1f0ba064-bc64-6320-9cdc-b0cdf6054b91",
     "title": "",
     "description": "",
     "tasks": [
         {
-            "uuid": "1f0b9fe8-7802-6781-b6e1-535dac127d1b",
+            "uuid": "1f0ba064-bc66-6a32-a2a5-6c07103b4e14",
             "title": "Check Path",
             "description": "",
             "setupjob": false,
@@ -15,7 +15,7 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f0b9fe8-7802-6780-9027-4023fd34cf3e",
+                    "uuid": "1f0ba064-bc66-6a31-8a41-c302b9bbaae3",
                     "title": "",
                     "description": "",
                     "category": 0,
@@ -34,7 +34,7 @@
             "jobs_uuid": []
         },
         {
-            "uuid": "1f0b9fe8-7802-6783-baab-466da2f60e40",
+            "uuid": "1f0ba064-bc66-6a34-b255-523dd39e08b8",
             "title": "Print Expression",
             "description": "",
             "setupjob": false,
@@ -45,7 +45,7 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f0b9fe8-7802-6782-8075-9f03c89389db",
+                    "uuid": "1f0ba064-bc66-6a33-ab7b-c12530ce4ba5",
                     "title": "",
                     "description": "",
                     "category": 1,
@@ -66,7 +66,7 @@
             "jobs_uuid": []
         },
         {
-            "uuid": "1f0b9fe8-7802-6786-a546-805ae0e48365",
+            "uuid": "1f0ba064-bc66-6a37-b2d5-db21b7ffcfc1",
             "title": "OS Action",
             "description": "",
             "setupjob": false,
@@ -77,7 +77,7 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f0b9fe8-7802-6784-ab07-00f3973243a0",
+                    "uuid": "1f0ba064-bc66-6a35-a4b7-928e69d58937",
                     "title": "",
                     "description": "",
                     "category": 1,
@@ -93,7 +93,7 @@
                     "id_args": []
                 },
                 {
-                    "uuid": "1f0b9fe8-7802-6785-8e09-654beeef4c0d",
+                    "uuid": "1f0ba064-bc66-6a36-9b1c-b1a7b1990d15",
                     "title": "",
                     "description": "",
                     "category": 1,
@@ -113,7 +113,7 @@
             "jobs_uuid": []
         },
         {
-            "uuid": "1f0b9fe8-7802-6788-a677-dc9126dab79e",
+            "uuid": "1f0ba064-bc66-6a39-8415-3c75dbf00550",
             "title": "Print Index",
             "description": "",
             "setupjob": false,
@@ -124,7 +124,7 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f0b9fe8-7802-6787-ae12-ea3bf37f092e",
+                    "uuid": "1f0ba064-bc66-6a38-ae4f-f8d2fb2f68d0",
                     "title": "",
                     "description": "",
                     "category": 1,
@@ -145,7 +145,7 @@
             "jobs_uuid": []
         },
         {
-            "uuid": "1f0b9fe8-7802-678a-803e-10731e953fe0",
+            "uuid": "1f0ba064-bc66-6a3b-96d6-e5b8a7b6c4d7",
             "title": "Print number (With property calc)",
             "description": "",
             "setupjob": false,
@@ -161,7 +161,7 @@
             ],
             "jobs": [
                 {
-                    "uuid": "1f0b9fe8-7802-6789-b1e4-f38b3b5be1aa",
+                    "uuid": "1f0ba064-bc66-6a3a-ab14-c93c800688c5",
                     "title": "",
                     "description": "",
                     "category": 1,
@@ -182,7 +182,7 @@
             "jobs_uuid": []
         },
         {
-            "uuid": "1f0b9fe8-7802-678c-9ea2-85f0d33ef810",
+            "uuid": "1f0ba064-bc69-6140-afe3-4340fd551781",
             "title": "Run Js",
             "description": "",
             "setupjob": false,
@@ -193,12 +193,12 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f0b9fe8-7802-678b-a30f-8c3036f798c0",
+                    "uuid": "1f0ba064-bc66-6a3c-8f6f-b8fce6466733",
                     "title": "",
                     "description": "",
                     "category": 1,
                     "type": 7,
-                    "script": "\nconsole.log(\"Hello World!\");\n",
+                    "script": "console.log(\"Hello World!\");\n",
                     "string_args": [],
                     "number_args": [],
                     "boolean_args": [],
@@ -208,7 +208,7 @@
             "jobs_uuid": []
         },
         {
-            "uuid": "1f0b9fe8-7802-678e-b85a-e61ec2248645",
+            "uuid": "1f0ba064-bc69-6142-aec9-2387d4f03375",
             "title": "Run Js",
             "description": "",
             "setupjob": false,
@@ -219,12 +219,12 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f0b9fe8-7802-678d-9cda-b6af5608e4e4",
+                    "uuid": "1f0ba064-bc69-6141-9127-ee0b10e87a02",
                     "title": "",
                     "description": "",
                     "category": 1,
                     "type": 7,
-                    "script": "\ne1 = env.getnumber(\"e1\");\nconsole.log(e1);\n",
+                    "script": "e1 = env.getnumber(\"e1\");\nconsole.log(e1);",
                     "string_args": [],
                     "number_args": [],
                     "boolean_args": [],
@@ -234,7 +234,7 @@
             "jobs_uuid": []
         },
         {
-            "uuid": "1f0b9fe8-7802-6790-9ef6-7f1417d872ec",
+            "uuid": "1f0ba064-bc69-6144-bfc6-54f040649639",
             "title": "Run Cronjob Js",
             "description": "",
             "setupjob": false,
@@ -245,12 +245,12 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f0b9fe8-7802-678f-90e4-d707c812b980",
+                    "uuid": "1f0ba064-bc69-6143-b863-52a389ecbc8d",
                     "title": "",
                     "description": "",
                     "category": 1,
                     "type": 7,
-                    "script": "\nid = env.getnumber('ck');\nconsole.log(`Hello World from ${id}`);\n",
+                    "script": "id = env.getnumber('ck');\nconsole.log(`Hello World from ${id}`);\n",
                     "string_args": [],
                     "number_args": [],
                     "boolean_args": [],
@@ -260,7 +260,7 @@
             "jobs_uuid": []
         },
         {
-            "uuid": "1f0b9fe8-7802-6792-a6c2-bd52184d3b7f",
+            "uuid": "1f0ba064-bc69-6146-935c-253f9b5ad7a8",
             "title": "Save Paramter",
             "description": "",
             "setupjob": false,
@@ -271,12 +271,12 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f0b9fe8-7802-6791-a1dc-dc900aad4b91",
+                    "uuid": "1f0ba064-bc69-6145-95d8-d68ec4b27e0b",
                     "title": "",
                     "description": "",
                     "category": 1,
                     "type": 7,
-                    "script": "\nid = env.getnumber('ck');\nconsole.log(`Current ck: ${id}`);\nkey = `KEY_${id}`;\nr = id * 5;\nconsole.log(JSON.stringify(env, null, 2));\nenv.setnumber(key, r);\nconsole.log(`Set keyvalue: [${key}, ${r}]`);\n",
+                    "script": "id = env.getnumber('ck');\nconsole.log(`Current ck: ${id}`);\nkey = `KEY_${id}`;\nr = id * 5;\nconsole.log(JSON.stringify(env, null, 2));\nenv.setnumber(key, r);\nconsole.log(`Set keyvalue: [${key}, ${r}]`);",
                     "string_args": [],
                     "number_args": [],
                     "boolean_args": [],
@@ -286,7 +286,7 @@
             "jobs_uuid": []
         },
         {
-            "uuid": "1f0b9fe8-7802-6794-8fea-c61e600fbb9b",
+            "uuid": "1f0ba064-bc69-6148-8474-496e6d664521",
             "title": "Load Paramter MultiCore",
             "description": "",
             "setupjob": false,
@@ -297,12 +297,12 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f0b9fe8-7802-6793-a24c-db7524be0402",
+                    "uuid": "1f0ba064-bc69-6147-9309-b63d5dcd843f",
                     "title": "",
                     "description": "",
                     "category": 1,
                     "type": 7,
-                    "script": "\nid = env.getnumber('ck');\nkey = `KEY_${id}`;\nvalue = env.getnumber(key);\nconsole.log(`Set keyvalue: [${key}, ${value}]`);\n",
+                    "script": "id = env.getnumber('ck');\nkey = `KEY_${id}`;\nvalue = env.getnumber(key);\nconsole.log(`Set keyvalue: [${key}, ${value}]`);",
                     "string_args": [],
                     "number_args": [],
                     "boolean_args": [],
@@ -312,7 +312,7 @@
             "jobs_uuid": []
         },
         {
-            "uuid": "1f0b9fe8-7804-6e91-bf8c-462808fc5d46",
+            "uuid": "1f0ba064-bc69-614a-b674-d93f49edb8a0",
             "title": "Call Lib Exe",
             "description": "",
             "setupjob": false,
@@ -323,7 +323,7 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f0b9fe8-7804-6e90-873d-d815fcd8d4ea",
+                    "uuid": "1f0ba064-bc69-6149-ba65-7e1611758633",
                     "title": "",
                     "description": "",
                     "category": 1,
@@ -341,7 +341,7 @@
             "jobs_uuid": []
         },
         {
-            "uuid": "1f0b9fe8-7804-6e93-97d6-67e7f4d5c569",
+            "uuid": "1f0ba064-bc69-614c-a2a9-a40357776184",
             "title": "Call Lib JS Exe",
             "description": "",
             "setupjob": false,
@@ -352,12 +352,12 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f0b9fe8-7804-6e92-ae1b-16001ca44af0",
+                    "uuid": "1f0ba064-bc69-614b-a341-4eb89a872b7e",
                     "title": "",
                     "description": "",
                     "category": 1,
                     "type": 7,
-                    "script": "\nfor(i = 0; i < 10; i++){\n    await os.plugin_command(\"Default\", \"\");\n}\n",
+                    "script": "for(i = 0; i < 10; i++){\n    await os.plugin_command(\"Default\", \"\");\n}",
                     "string_args": [],
                     "number_args": [],
                     "boolean_args": [],
@@ -371,7 +371,7 @@
     "database_uuid": "",
     "database": {
         "title": "Default Database",
-        "uuid": "1f0b9fe8-7800-6071-8037-6f36df5934e2",
+        "uuid": "1f0ba064-bc66-6a30-ae53-533251225f4e",
         "canWrite": true,
         "containers": [
             {

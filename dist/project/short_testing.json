@@ -1,10 +1,10 @@
 {
-    "uuid": "1f0b9fe8-7804-6e94-8c83-08229e05a343",
+    "uuid": "1f0ba064-bc69-614d-b35f-48c779b5c72c",
     "title": "",
     "description": "",
     "tasks": [
         {
-            "uuid": "1f0b9fe8-7804-6e96-8c43-742da929353d",
+            "uuid": "1f0ba064-bc69-614f-895b-781681dac020",
             "title": "Print Index",
             "description": "",
             "setupjob": false,
@@ -15,7 +15,7 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f0b9fe8-7804-6e95-ba3b-819b5061747a",
+                    "uuid": "1f0ba064-bc69-614e-ac0a-ae5132a5c366",
                     "title": "",
                     "description": "",
                     "category": 1,

@@ -1,12 +1,8 @@
 import { v6 as uuidv6 } from 'uuid'
+import * as path from 'path'
+import * as fs from 'fs'
 import { ConditionResult, Job, JobCategory, JobType, JobType2, Database, Project, Task, CreateDefaultJob, CreateDefaultTask } from "verteilen-core";
 import { GetDefaultProject_Database } from '../database/Default';
-import { DEFAULT_JsCronMultiExample } from '../js/CronMultiExample';
-import { DEFAULT_JsExample } from '../js/Example';
-import { DEFAULT_JsPrintExample } from '../js/PrintExample';
-import { DEFAULT_JsSaveExample } from '../js/SaveExample';
-import { DEFAULT_JsExpressionExample } from '../js/Expression';
-import { DEFAULT_JsLibPrintExample } from '../js/LibCaller';
 
 const path_checker = ():Task => {
     const checker:Job = {
@@ -135,7 +131,7 @@ const js_print = ():Task => {
         ...CreateDefaultJob(),
         category: JobCategory.Execution,
         type: JobType.JAVASCRIPT,
-        script: DEFAULT_JsExample,
+        script: fs.readFileSync(path.join(__dirname, "..", "js", "Example.js")).toString(),
     }
     const t:Task = {
         ...CreateDefaultTask(),
@@ -152,7 +148,7 @@ const js_print_expression = ():Task => {
         ...CreateDefaultJob(),
         category: JobCategory.Execution,
         type: JobType.JAVASCRIPT,
-        script: DEFAULT_JsExpressionExample,
+        script: fs.readFileSync(path.join(__dirname, "..", "js", "Expression.js")).toString(),
     }
     const t:Task = {
         ...CreateDefaultTask(),
@@ -169,7 +165,7 @@ const js_cron_print = ():Task => {
         ...CreateDefaultJob(),
         category: JobCategory.Execution,
         type: JobType.JAVASCRIPT,
-        script: DEFAULT_JsCronMultiExample,
+        script: fs.readFileSync(path.join(__dirname, "..", "js", "CronMultiExample.js")).toString(),
     }
     const t:Task = {
         ...CreateDefaultTask(),
@@ -188,7 +184,7 @@ const save_database = ():Task => {
         ...CreateDefaultJob(),
         category: JobCategory.Execution,
         type: JobType.JAVASCRIPT,
-        script: DEFAULT_JsSaveExample,
+        script: fs.readFileSync(path.join(__dirname, "..", "js", "SaveExample.js")).toString(),
     }
     const t:Task = {
         ...CreateDefaultTask(),
@@ -207,7 +203,7 @@ const load_database_multicore = ():Task => {
         ...CreateDefaultJob(),
         category: JobCategory.Execution,
         type: JobType.JAVASCRIPT,
-        script: DEFAULT_JsPrintExample,
+        script: fs.readFileSync(path.join(__dirname, "..", "js", "PrintExample.js")).toString(),
     }
     const t:Task = {
         ...CreateDefaultTask(),
@@ -245,7 +241,7 @@ const calllibjs = ():Task => {
         ...CreateDefaultJob(),
         category: JobCategory.Execution,
         type: JobType.JAVASCRIPT,
-        script: DEFAULT_JsLibPrintExample,
+        script: fs.readFileSync(path.join(__dirname, "..", "js", "LibCaller.js")).toString(),
     }
     const t:Task = {
         ...CreateDefaultTask(),
