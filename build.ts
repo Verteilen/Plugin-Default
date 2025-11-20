@@ -52,7 +52,7 @@ PluginBuild(
             }
         },
         {
-            key: "zh-TW",
+            key: "zh_TW",
             value: {
                 PluginDes: "範例插件",
                 Default: "預設",
