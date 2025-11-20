@@ -37,19 +37,27 @@ PluginBuild(
     // Template metadata
     projects: BuildIn_ProjectTempGroup,
     databases: BuildIn_DatabaseTempGroup
-}, "1.0.0", [
-    {
-        key: "en",
-        value: {
-            Default: "Default",
-            DefaultDes: "Default Test Program"
+}, 
+{
+    version: "1.0.0",
+    title: "Default",
+    description: "PluginDes",
+    i18n: [
+        {
+            key: "en",
+            value: {
+                PluginDes: "The example plugin",
+                Default: "Default",
+                DefaultDes: "Default Test Program"
+            }
+        },
+        {
+            key: "zh-TW",
+            value: {
+                PluginDes: "範例插件",
+                Default: "預設",
+                DefaultDes: "預設測試程式"
+            }
         }
-    },
-    {
-        key: "zh-TW",
-        value: {
-            Default: "預設",
-            DefaultDes: "預設測試程式"
-        }
-    }
-])
+    ]
+})
