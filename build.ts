@@ -12,7 +12,7 @@ PluginBuild(
     plugins: [
         {
             name: "Default",
-            description: "Default Test Program",
+            description: "DefaultDes",
             requireVersion: "1.3",
             version: "0.2.0",
             contents: [
@@ -37,4 +37,19 @@ PluginBuild(
     // Template metadata
     projects: BuildIn_ProjectTempGroup,
     databases: BuildIn_DatabaseTempGroup
-})
+}, "1.0.0", [
+    {
+        key: "en",
+        value: {
+            Default: "Default",
+            DefaultDes: "Default Test Program"
+        }
+    },
+    {
+        key: "zh-TW",
+        value: {
+            Default: "預設",
+            DefaultDes: "預設測試程式"
+        }
+    }
+])
