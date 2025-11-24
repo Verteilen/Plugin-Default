@@ -19,6 +19,6 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "verteilen-core": "^1.4.15"
+    "verteilen-core": "^1.4.30"
   }
 }

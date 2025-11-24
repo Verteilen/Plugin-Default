@@ -61,3 +61,5 @@ PluginBuild(
         }
     ]
 })
+
+process.exit(0)
